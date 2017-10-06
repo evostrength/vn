@@ -155,6 +155,10 @@
           zoom: 4,
           center: location
         });
+        var marker = new google.maps.Marker({
+          position: location,
+          map: map
+        });
       }
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaPi-MMAumI8Lqo-4bxbgSo9HoSFOD0uo&callback=initMap"></script>
