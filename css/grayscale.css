@@ -50,13 +50,13 @@ a {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
   text-transform: uppercase;
-  border-bottom: 10px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   background-color: black; }
   #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
     color: white;
-    border: 10px solid white; }
+    border: 1px solid white; }
   #mainNav .navbar-brand {
     font-weight: 700; }
   #mainNav a {
@@ -85,7 +85,7 @@ a {
       #mainNav.navbar-shrink {
         padding-top: 10px;
         padding-bottom: 10px;
-        border-bottom: 10px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
         background: black; }
       #mainNav .nav-link.active {
         outline: none;
@@ -132,7 +132,7 @@ a {
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
   color: white;
-  border: 20px solid white;
+  border: 2px solid white;
   border-radius: 100% !important;
   background: transparent; }
   .btn-circle:focus, .btn-circle:hover {
@@ -175,11 +175,11 @@ a {
 
 .btn-default {
   color: #42DCA3;
-  border: 10px solid #42DCA3;
+  border: 1px solid #42DCA3;
   background-color: transparent; }
   .btn-default:focus, .btn-default:hover {
     color: black;
-    border: 10px solid #42DCA3;
+    border: 1px solid #42DCA3;
     outline: none;
     background-color: #42DCA3; }
 
