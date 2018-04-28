@@ -324,7 +324,7 @@
          		var busAddr = {lat: 10.738645, lng: 106.729243};
          		var clientCoords = new google.maps.LatLng(pos);
          		var directionsService = new google.maps.DirectionsService();
-         		var directionsDisplay = new google.maps.DirectionsRenderer();
+         		var directionsDisplay = new google.maps.DirectionsRenderer({suppressMarkers: true});
          		var mapOptions = {
        				zoom: 15,
        				center: busAddr,
@@ -346,6 +346,11 @@
           			url: 'Map Marker.png', // url
           			scaledSize: new google.maps.Size(30, 50), // size W x H
 			};
+			var marker = new google.maps.Marker({
+          			position: clientCoords,
+          			map: map,
+          			title: 'Your Location'
+        	});
         		var marker = new google.maps.Marker({
           			position: busAddr,
           			icon: icon,
